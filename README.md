@@ -2,12 +2,29 @@
 
 BlackRock Coding Challenge — Retirement Savings API built with Spring Boot and Java 23.
 
+## Youtube video link
+https://www.youtube.com/watch?v=k4lj4swGX98
+
 ## Configuration
 
 - **Port:** 5477 (configured in `src/main/resources/application.properties`)
 - **Java Version:** 23
 - **Spring Boot:** 3.4.5
 - **Build Tool:** Maven
+
+## Run with Docker
+
+```bash
+# Docker Image Image
+docker pull karanseth/blk-hacking-ind-karan-seth:latest
+
+# Build image
+docker build -t blk-hacking-ind-karan-seth .
+
+# Run container
+docker run -p 5477:5477 blk-hacking-ind-karan-seth
+
+```
 
 ## Run Locally
 
@@ -20,22 +37,6 @@ java -jar target/retirement-savings-api-1.0.0.jar
 ```
 
 The API will be available at `http://localhost:5477`.
-
-## Run with Docker
-
-```bash
-# Build image
-docker build -t blk-hacking-ind-karan-seth .
-
-# Run container
-docker run -p 5477:5477 blk-hacking-ind-karan-seth
-
-# Docker Image Image
-docker pull karanseth/blk-hacking-ind-karan-seth:latest
-
-```
-## Youtube video link
-https://www.youtube.com/watch?v=k4lj4swGX98
 
 ## API Endpoints
 
