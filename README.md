@@ -29,6 +29,9 @@ docker build -t blk-hacking-ind-karan-seth .
 
 # Run container
 docker run -p 5477:5477 blk-hacking-ind-karan-seth
+
+# Docker Image Image
+docker pull karanseth/blk-hacking-ind-karan-seth:latest
 ```
 
 ## API Endpoints
