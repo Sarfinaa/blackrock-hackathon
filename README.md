@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=k4lj4swGX98
 ## Run with Docker
 
 ```bash
-# Docker Image Image
+# Docker Image 
 docker pull karanseth/blk-hacking-ind-karan-seth:latest
 
 # Build image
