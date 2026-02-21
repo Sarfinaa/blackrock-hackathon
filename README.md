@@ -5,6 +5,11 @@ BlackRock Coding Challenge — Retirement Savings API built with Spring Boot and
 ## Youtube video link
 https://www.youtube.com/watch?v=k4lj4swGX98
 
+## Docker Image
+```bash
+docker pull karanseth/blk-hacking-ind-karan-seth:latest
+```
+
 ## Configuration
 
 - **Port:** 5477 (configured in `src/main/resources/application.properties`)
@@ -15,9 +20,6 @@ https://www.youtube.com/watch?v=k4lj4swGX98
 ## Run with Docker
 
 ```bash
-# Docker Image 
-docker pull karanseth/blk-hacking-ind-karan-seth:latest
-
 # Build image
 docker build -t blk-hacking-ind-karan-seth .
 
