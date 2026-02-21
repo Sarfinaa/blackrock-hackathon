@@ -32,7 +32,10 @@ docker run -p 5477:5477 blk-hacking-ind-karan-seth
 
 # Docker Image Image
 docker pull karanseth/blk-hacking-ind-karan-seth:latest
+
 ```
+## Youtube video link
+https://www.youtube.com/watch?v=k4lj4swGX98
 
 ## API Endpoints
 
